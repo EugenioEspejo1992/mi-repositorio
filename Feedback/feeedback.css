@@ -75,7 +75,8 @@ body{
     align-items: center;
     background-color:#eeee ;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+
     
 
 }
