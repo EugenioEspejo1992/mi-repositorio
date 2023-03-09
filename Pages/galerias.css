@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
+body {
+  background-color: rgb(242, 232, 231);
+}
+
+.Menu {
+  background: #092327;
+  list-style: none;
+  padding: 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.Menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+  justify-content: space-around;
+}
+
+.Menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.Menu li a:hover {
+  background: #f5be09;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Releway", sans-serif;
+}
+
+.container {
+  padding: 3rem;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.caption {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.thumbnail:hover {
+  transform: translate(-4px);
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  margin: 2rem 0;
+}/*# sourceMappingURL=galerias.css.map */

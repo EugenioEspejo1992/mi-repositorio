@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(19, 19, 18);
+}
+
+.d-item {
+  height: 600px;
+}
+
+.d-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.6);
+}
+
+footer {
+  text-align: center;
+  margin: 2rem 0;
+}/*# sourceMappingURL=styles.css.map */
