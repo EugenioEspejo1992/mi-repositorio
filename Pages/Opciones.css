@@ -6,7 +6,7 @@
     list-style: none ;
     padding: 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 .Menu li a{
@@ -98,7 +98,7 @@ body{
 .container .card a{
     font-weight: 500;
     text-decoration: none;
-    color: #3498b
+    color: #3498b3
 
 
 }
@@ -136,6 +136,10 @@ footer {
     
   }
 
+
+  body {
+    background-color:rgb(223, 213, 213);
+}
 
 
 

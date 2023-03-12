@@ -5,7 +5,7 @@
     list-style: none ;
     padding: 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 1100px;
     
 
 
@@ -118,6 +118,10 @@ body{
     color: white;
     margin: 16px 0;
     font-size: 16px;
+}
+
+body {
+    background-color:rgb(223, 213, 213);
 }
 
 
